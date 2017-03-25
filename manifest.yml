@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: iot-bm-watson
+  host: iot-bm-watson
+  disk_quota: 1024M
+  services:
+  - iot-bm-watson-cloudantNoSQLDB
+  - iot-bm-watson-iotf-service
